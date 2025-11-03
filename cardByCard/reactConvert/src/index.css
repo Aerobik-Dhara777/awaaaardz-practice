@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#main {
+  gap:10vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 150vh;
+  background-color: #202020;
+}
+
+.text {
+
+
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+
+
+  width: 77%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  z-index: 10;
+  /* background-color: red; */
+
+}
+
+.text-img {
+  width: 100px;
+  height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWgOKtgx1PR4-FlRtpAWwgOAf-tfYvogy-pg&s);
+    background-size: cover;
+    background-position: center;
+}
+
+.text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.cards {
+  position: absolute;
+  width: 80%;
+  height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  background-position: center;
+  background-size: cover;
+}
+
+#card-one {
+    top: 130%;
+    background-image: url(../public/wp4289821-bmw-headlights-wallpapers.jpg);
+}
+
+#card-two {
+    top: 230%;
+    background-image: url(../public/wp14507580-bmw-headlight-4k-wallpapers.jpg);
+}
+
+#card-three {
+    top: 250%;
+    background-image: url(../public/wp15503233-bmw-head-light-wallpapers.jpg);
+}

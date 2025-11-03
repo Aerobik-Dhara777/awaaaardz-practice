@@ -1,0 +1,91 @@
+ @font-face {
+    font-family: apply;
+    src: url(../public/La\ Gagliane.otf);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+    
+}
+
+#main-p{
+    width:100%;
+    height:100vh ;
+    background-color: blueviolet;
+
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+#top{
+    top:0%;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+    overflow: hidden;
+    z-index: 1;
+}
+#center{
+    width: 100%;
+    height: 100vh;
+    background-color:#333;
+}
+#bottom{
+     position: absolute; 
+    bottom: 0%; 
+    width: 100%;
+    height: 50vh;
+    background-color:white;
+    overflow: hidden;
+}
+
+  #main h1{
+    font-size: 9rem;
+    font-family: apply;
+    font-weight: 900;
+   position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    
+} 
+
+
+#top-h1{
+   top:100% !important;
+
+
+}
+
+#bottom-h1{
+    top: 0% !important;
+} 
+
+.love{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color:#FF3F7F;
+  align-items: center;
+  justify-content: center;
+}
+ 
+
+ 
